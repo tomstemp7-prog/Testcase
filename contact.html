@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us — Iron &amp; Oak Fitness Club</title>
+  <meta name="description" content="Get in touch with Iron &amp; Oak Fitness Club in Reading, Berkshire. Book a free tour, enquire about membership, or find our opening hours and directions." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%23162040'/><text x='50%' y='58%' dominant-baseline='middle' text-anchor='middle' fill='%23C9A96E' font-size='18' font-family='Georgia'>I</text></svg>" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <span class="logo-main">Iron &amp; Oak</span>
+      <span class="logo-sub">Fitness Club</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="membership.html">Membership</a></li>
+      <li><a href="classes.html">Classes</a></li>
+      <li><a href="facilities.html">Facilities</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <a href="membership.html" class="btn btn--primary btn--sm nav-cta">Join Today</a>
+    <button class="nav-hamburger" id="burger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+<div class="mobile-nav" id="mobile-nav">
+  <a href="index.html">Home</a>
+  <a href="membership.html">Membership</a>
+  <a href="classes.html">Classes</a>
+  <a href="facilities.html">Facilities</a>
+  <a href="faq.html">FAQ</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+<section class="page-hero">
+  <div class="page-hero-bg" style="background-image: url('https://images.unsplash.com/photo-1560185893-a55cbc8c57e8?w=1200&q=80');"></div>
+  <div class="page-hero-overlay"></div>
+  <div class="page-hero-content">
+    <span class="section-label">Get in Touch</span>
+    <h1 class="display-2">Contact Us</h1>
+    <p>Book a tour, ask a question, or simply come and say hello. We'd love to meet you.</p>
+  </div>
+</section>
+
+<div class="breadcrumb">
+  <nav><a href="index.html">Home</a><span>/</span>Contact</nav>
+</div>
+
+<section class="section-pad">
+  <div class="container">
+    <div class="contact-grid">
+
+      <div class="contact-form-wrap fade-in">
+        <span class="section-label">Send an Enquiry</span>
+        <h2>We'll Get Back to You Within 2 Hours</h2>
+        <p>Whether you want to book a tour, ask about membership, or have a general question — fill in the form and someone from our team will respond promptly.</p>
+
+        <form id="contact-form" novalidate>
+          <div class="form-grid">
+            <div class="form-field">
+              <label for="first-name">First Name *</label>
+              <input type="text" id="first-name" name="first_name" placeholder="James" required />
+            </div>
+            <div class="form-field">
+              <label for="last-name">Last Name *</label>
+              <input type="text" id="last-name" name="last_name" placeholder="Mitchell" required />
+            </div>
+            <div class="form-field">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" placeholder="james@example.com" required />
+            </div>
+            <div class="form-field">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="07700 900000" />
+            </div>
+            <div class="form-field full">
+              <label for="membership-interest">Membership Interest</label>
+              <select id="membership-interest" name="membership_interest">
+                <option value="">— Select an option —</option>
+                <option value="tour">Book a Free Club Tour</option>
+                <option value="essential">Essential Membership (£35/mo)</option>
+                <option value="club">Club Membership (£55/mo)</option>
+                <option value="premium">Premium Membership (£75/mo)</option>
+                <option value="corporate">Corporate Membership</option>
+                <option value="family">Family Membership</option>
+                <option value="personal-training">Personal Training</option>
+                <option value="spa">Spa Day / Treatment</option>
+                <option value="other">General Enquiry</option>
+              </select>
+            </div>
+            <div class="form-field full">
+              <label for="message">Message *</label>
+              <textarea id="message" name="message" placeholder="Tell us a little about yourself and what you're looking for — we'll tailor our response to your specific situation." required></textarea>
+            </div>
+            <div class="form-field full">
+              <label style="display:flex;align-items:flex-start;gap:0.6rem;text-transform:none;font-size:0.82rem;color:var(--gray-600);cursor:pointer;">
+                <input type="checkbox" style="margin-top:2px;flex-shrink:0;width:auto;border:1px solid var(--gray-400);" />
+                I agree to receive occasional emails from Iron &amp; Oak about membership news, class updates, and special offers. You can unsubscribe at any time.
+              </label>
+            </div>
+          </div>
+          <div class="form-submit">
+            <button type="submit" class="btn btn--primary btn--lg">Send Enquiry</button>
+          </div>
+          <div class="form-success" id="form-success">
+            ✓ Thank you — we've received your message and will be in touch within 2 hours.
+          </div>
+        </form>
+      </div>
+
+      <div class="contact-info fade-in fade-in-delay-1">
+
+        <div class="info-card">
+          <div class="info-card-header">
+            <div class="info-icon">
+              <svg viewBox="0 0 24 24" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <h3>Find Us</h3>
+          </div>
+          <p>
+            <strong style="color:var(--navy);display:block;margin-bottom:4px;">Iron &amp; Oak Fitness Club</strong>
+            12 Caversham Road<br>
+            Reading, Berkshire<br>
+            RG1 7AB
+          </p>
+          <p style="margin-top:1rem;font-size:0.85rem;color:var(--gray-400);">Free parking available on-site (180 spaces, ANPR-managed).</p>
+        </div>
+
+        <div class="info-card">
+          <div class="info-card-header">
+            <div class="info-icon">
+              <svg viewBox="0 0 24 24" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6.1 6.1l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16.92z"/></svg>
+            </div>
+            <h3>Get in Touch</h3>
+          </div>
+          <p>
+            <strong style="color:var(--navy);">Phone:</strong>
+            <a href="tel:+441189001234" style="margin-left:8px;">0118 900 1234</a>
+          </p>
+          <p style="margin-top:0.5rem;">
+            <strong style="color:var(--navy);">Email:</strong>
+            <a href="mailto:hello@ironoakclub.co.uk" style="margin-left:8px;">hello@ironoakclub.co.uk</a>
+          </p>
+          <p style="margin-top:0.5rem;">
+            <strong style="color:var(--navy);">Corporate:</strong>
+            <a href="mailto:corporate@ironoakclub.co.uk" style="margin-left:8px;">corporate@ironoakclub.co.uk</a>
+          </p>
+        </div>
+
+        <div class="info-card">
+          <div class="info-card-header">
+            <div class="info-icon">
+              <svg viewBox="0 0 24 24" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <h3>Opening Hours</h3>
+          </div>
+          <table class="hours-table">
+            <tbody>
+              <tr><td>Monday – Friday</td><td>6:00am – 10:00pm</td></tr>
+              <tr><td>Saturday</td><td>7:00am – 8:00pm</td></tr>
+              <tr><td>Sunday</td><td>8:00am – 6:00pm</td></tr>
+              <tr><td>Bank Holidays</td><td>8:00am – 6:00pm</td></tr>
+            </tbody>
+          </table>
+          <p style="margin-top:1rem;font-size:0.82rem;color:var(--gray-400);">Spa closes 30 min earlier. Business lounge: Mon–Fri only.</p>
+        </div>
+
+        <div style="background:var(--navy);border-radius:4px;padding:2rem;text-align:center;">
+          <span class="section-label" style="color:var(--gold);">No commitment</span>
+          <h3 style="color:var(--white);margin-bottom:0.75rem;font-size:1.3rem;">Book a Free Club Tour</h3>
+          <p style="color:rgba(255,255,255,0.7);font-size:0.9rem;margin-bottom:1.5rem;line-height:1.65;">Come and walk the floor, see the pool, and try the spa. Our team will give you a personal introduction — usually 30–45 minutes.</p>
+          <a href="tel:+441189001234" class="btn btn--primary" style="width:100%;justify-content:center;">Call 0118 900 1234</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-bottom:80px;">
+  <div class="container">
+    <div class="fade-in">
+      <h3 style="margin-bottom:1.5rem;font-size:1.3rem;">How to Find Us</h3>
+      <div class="map-embed">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.6!2d-0.9667!3d51.4551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48742037e368e6af%3A0xb32a8cf3bd53ec6!2sReading%2C%20UK!5e0!3m2!1sen!2suk!4v1700000000000"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Iron and Oak Fitness Club location map">
+        </iframe>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1.5rem;margin-top:2rem;">
+        <div style="padding:1.5rem;border:1px solid var(--gray-200);border-radius:3px;">
+          <h4 style="color:var(--navy);margin-bottom:0.5rem;font-size:0.9rem;">🚗 By Car</h4>
+          <p style="font-size:0.85rem;color:var(--gray-600);">Exit the M4 at Junction 11 and follow the A33 towards Reading town centre. Turn left onto Caversham Road. Free parking on-site.</p>
+        </div>
+        <div style="padding:1.5rem;border:1px solid var(--gray-200);border-radius:3px;">
+          <h4 style="color:var(--navy);margin-bottom:0.5rem;font-size:0.9rem;">🚌 By Bus</h4>
+          <p style="font-size:0.85rem;color:var(--gray-600);">Buses 17, 23, and 31 stop on Caversham Road within a 3-minute walk. Reading Buses Journey Planner: readingbuses.co.uk</p>
+        </div>
+        <div style="padding:1.5rem;border:1px solid var(--gray-200);border-radius:3px;">
+          <h4 style="color:var(--navy);margin-bottom:0.5rem;font-size:0.9rem;">🚂 By Train</h4>
+          <p style="font-size:0.85rem;color:var(--gray-600);">Reading Railway Station is 12 minutes on foot or 5 minutes by taxi. Trains from London Paddington every 10 minutes.</p>
+        </div>
+        <div style="padding:1.5rem;border:1px solid var(--gray-200);border-radius:3px;">
+          <h4 style="color:var(--navy);margin-bottom:0.5rem;font-size:0.9rem;">🚲 By Bike</h4>
+          <p style="font-size:0.85rem;color:var(--gray-600);">Secure covered bike storage is available to all members. We're on the Sustrans National Cycle Network Route 422.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo-main">Iron &amp; Oak</div>
+        <div class="logo-sub">Fitness Club</div>
+        <p>Reading's most sought-after health club — where performance meets lifestyle.</p>
+        <div class="social-links">
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="#" aria-label="Facebook">FB</a>
+          <a href="#" aria-label="Twitter/X">𝕏</a>
+          <a href="#" aria-label="LinkedIn">in</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="membership.html">Membership</a></li>
+          <li><a href="classes.html">Classes &amp; Timetable</a></li>
+          <li><a href="facilities.html">Facilities</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Facilities</h4>
+        <ul>
+          <li><a href="facilities.html">Gym Floor</a></li>
+          <li><a href="facilities.html">Swimming Pool</a></li>
+          <li><a href="facilities.html">Spa &amp; Sauna</a></li>
+          <li><a href="facilities.html">Group Studios</a></li>
+          <li><a href="facilities.html">Tennis &amp; Padel</a></li>
+          <li><a href="facilities.html">Business Lounge</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <div class="footer-address">
+          <strong>Iron &amp; Oak Fitness Club</strong>
+          12 Caversham Road, Reading<br>
+          Berkshire, RG1 7AB<br><br>
+          <a href="tel:+441189001234">0118 900 1234</a><br>
+          <a href="mailto:hello@ironoakclub.co.uk">hello@ironoakclub.co.uk</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2024 Iron &amp; Oak Fitness Club Ltd. All rights reserved.</span>
+      <div style="display:flex;gap:1.5rem;">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Use</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
